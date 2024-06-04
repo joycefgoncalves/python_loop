@@ -1,0 +1,36 @@
+#task 1 
+
+# Our playlist of genres
+genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
+
+# Get a slice of genres from the second to the fourth track
+selected_genres = genres[1:4]
+
+# Loop through the selected genres
+for index, genre in enumerate(selected_genres, start=2):
+    # Print the track number and genre
+    print(f"Track {index}: {genre}")
+
+
+#task 2
+
+# Our playlist of genres
+genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
+
+# Create a new list with each genre followed by "Music"
+genres_with_music = [genre + " Music" for genre in genres]
+
+# Print the new list
+print(genres_with_music)
+
+
+#task 3 
+
+# Loop using range() to print out the countdown
+for number in range(10, 0, -1):
+    print(number)
+
+# Print the message "The beat drops now!"
+print("The beat drops now!")
+
+

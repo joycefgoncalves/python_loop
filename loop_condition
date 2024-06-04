@@ -1,0 +1,32 @@
+#task 1
+
+# Initialize a counter
+counter = 0
+
+# Infinite loop
+while True:
+    # Print a statement
+    print("Inside the loop")
+    
+    # Increment the counter
+    counter += 1
+    
+    # Check if counter reaches 5
+    if counter == 5:
+        # Break out of the loop
+        break
+
+
+#task 2
+
+# Initialize a counter
+counter = 0
+
+# Infinite loop
+while counter < 10:  # Condition that will eventually be true
+    # Print a statement
+    print("Inside the loop")
+    
+    # Increment the counter
+    counter += 1
+
